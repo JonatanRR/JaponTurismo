@@ -71,8 +71,6 @@ a:hover {
     margin-top: 30px;
 }
 .contenedor2 {
-    background-color: black;    
-    border: 15px solid black;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -80,8 +78,8 @@ a:hover {
     flex-wrap: wrap;
 }
 .blog {
-    background-color: #44465e;
-    border: 15px solid #44465e;
+    background-color: #d8d7d7;
+    padding: 10px;
     flex-basis: 65%;
     display: flex;
     flex-direction: row;
@@ -89,41 +87,49 @@ a:hover {
     justify-content: space-between;
 }
 .entradas {
-    background-color: #1664a4;
-    border: 15px solid #1664a4;
+    background-color: #f5f1f1;
+    padding: 10px;
     flex-basis: 40%;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
+}
+.foto-blog {
+    width: 30vw;
+}
+.titulo-entrada {
+    background-color: #f08080;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    padding: 5px 0 0 5px;
 }
 .entrada-larga {
-    background-color: #6399bb;
-    border: 15px solid #6399bb;
+    background-color: #d8d7d7;
+    text-align: center;
     flex-basis: 100%;
     
 }
 .aside {
-    background-color: #f94c47;
-    border: 15px solid #f94c47;
+    background-color: #d8d7d7;
+    padding: 10px;
     flex-basis: 28%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 .lateral {
-    background-color: #ffe380;
-    border: 15px solid #ffe380;
-    margin-bottom: 10px;    
+    text-align: center;
 }
+
 .contenedor3 {
-    background-color: black;    
+    background-color: #f5f1f1;    
     height: 40px;
-    border: 15px solid black;
     display: flex;
     flex-direction: row;
 }
-.footer {
-    background-color: #e4a434;
+footer {
     flex-basis: 100%;    
+    text-align: center;
+    margin-top: 10px;
 }
 
 @media  (max-width: 900px) {
