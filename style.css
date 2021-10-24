@@ -28,8 +28,8 @@ ul {
     
 }
 #logo {
-    width: 100px;
-    height: 100px;    
+    width: 75px;
+    height: 75px;    
 }
 .menu-largo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,9 +160,6 @@ a:hover {
     }
     .redes-sociales {
         color: #ffaa64ce;
-    }
-    a:hover {
-        display: none;
     }
     .contenedor2 {
         background-color: #ffd939;
