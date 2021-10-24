@@ -154,8 +154,8 @@ footer {
 
 @media  (max-width: 900px) {
     .contenedor2 {
-        background-color: #fff734;
-        border-color: #fff734;
+      /*  background-color: #fff734;
+        border-color: #fff734;*/
         align-items: space-around;
     }
     .texto {
@@ -164,6 +164,9 @@ footer {
     .blog {
         flex-basis: 100%;
         margin-bottom: 10px;
+    }
+    .foto-blog {
+        width: 40vw;
     }
     .aside {
         flex-basis: 100%;
@@ -187,30 +190,25 @@ footer {
     .redes-sociales {
         color: #ffaa64ce;
     }
-    .contenedor2 {
-        background-color: #ffd939;
-        border-color: #ffd939;        
-    }
+    
     .blog {
-        background-color: #004763;
-        border-color: #004763;
+       /* background-color: #004763;
+        border-color: #004763;*/
     }
     .entradas {
-        background-color: #558991;
-        border-color: #558991;
+       /* background-color: #558991;
+        border-color: #558991;*/
         flex-basis: 100%;
+    }
+    .foto-blog {
+        padding-left: 20px;
+        width: 80vw;
     }
     .entrada-larga {
         background-color: #97d4c5;
         border-color: #97d4c5;
     }
-    .aside {
-        background-color: #ff784c;
-        border-color: #ff784c;
-    }
-    .lateral {
-        background-color: #ffab64;
-        border-color: #ffab64;
+   
     }
     .footer {
         background-color: #ffbf60;
