@@ -32,6 +32,9 @@ ul {
     height: 75px;    
 }
 .menu-largo {
+    position: relative;
+    animation-name: fade;
+    animation-duration: 3s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     flex-basis: 80%;
@@ -39,6 +42,20 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@keyframes fade {
+    0% {
+        right: 20%;
+        opacity: 0.1;
+    }
+    50% {
+        right: 10%;
+        opacity: 0.5;
+    }
+    100% {
+        right: 5%;
+        opacity: 1;
+    }
 }
 a {
     color: #808080;
@@ -66,6 +83,9 @@ a:hover {
     justify-content: center;
 }
 .texto {
+    position: relative;
+    animation-name: fade;
+    animation-duration: 3s;
     color: #f59c7bde;
     font-size: 30px;
     margin-top: 30px;
